@@ -46,15 +46,12 @@ cd ng16-jest-preset
 yarn start
 ```
 
-WOAAA!! #mind-blown
-
 ## Updating Dependencies
 
 To update Angular dependencies, which runs Angular migrations:
 
 1. Make sure there are no git changes (if there are, `git stash` them)
-2. ` yarn dlx -p @angular/cli ng update @angular/cli`
-REVIEW: Currently this doesn't work with Yarn PNP, so we have to run migrations manually.
+2. `yarn dlx -p @angular/cli ng update @angular/cli @angular/common @angular/core @angular/forms @angular/router`
 3. Commit changes in single update commit (eg `chore(ng update): ng dependencies`)
 
 To update other dependencies:
