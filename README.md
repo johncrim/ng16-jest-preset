@@ -19,7 +19,6 @@ yarn dlx --package @angular/cli ng new ng16-jest-preset --directory=. --package-
 2. Then, move the contents of `_package.json` to `package.json`, and delete `_package.json`.
 
 3. Update .gitignore per: https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
-(I used the zero-install .gitignore)
 
 4. Commit everything thus far
 
