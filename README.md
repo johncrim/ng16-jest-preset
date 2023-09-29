@@ -34,19 +34,9 @@ and commit it.
 yarn ng g application myapp
 ```
 
-7. Install the VS Code files for Yarn PnP integration
+and commit it.
 
-```bash
-yarn dlx @yarnpkg/sdks vscode
-```
-
-and commit the changes.
-
-Then, open a *.ts file, press `ctrl + shift + p`, type/select "Select TypeScript Version", then pick "Use Workspace Version".
-
-More info: https://yarnpkg.com/getting-started/editor-sdks#vscode
-
-8. Run it in VS Code (F5)
+7. Run it in VS Code (F5)
 
 ## Running It
 
