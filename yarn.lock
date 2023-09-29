@@ -177,7 +177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/animations@npm:^16.2.0":
+"@angular/animations@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/animations@npm:16.2.7"
   dependencies:
@@ -216,7 +216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/common@npm:^16.2.0":
+"@angular/common@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/common@npm:16.2.7"
   dependencies:
@@ -228,7 +228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler-cli@npm:^16.2.0":
+"@angular/compiler-cli@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/compiler-cli@npm:16.2.7"
   dependencies:
@@ -251,7 +251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:^16.2.0":
+"@angular/compiler@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/compiler@npm:16.2.7"
   dependencies:
@@ -265,7 +265,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^16.2.0":
+"@angular/core@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/core@npm:16.2.7"
   dependencies:
@@ -277,7 +277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/forms@npm:^16.2.0":
+"@angular/forms@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/forms@npm:16.2.7"
   dependencies:
@@ -291,7 +291,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser-dynamic@npm:^16.2.0":
+"@angular/platform-browser-dynamic@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/platform-browser-dynamic@npm:16.2.7"
   dependencies:
@@ -305,7 +305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser@npm:^16.2.0":
+"@angular/platform-browser@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/platform-browser@npm:16.2.7"
   dependencies:
@@ -321,7 +321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^16.2.0":
+"@angular/router@npm:^16.2.7":
   version: 16.2.7
   resolution: "@angular/router@npm:16.2.7"
   dependencies:
@@ -3109,7 +3109,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:~4.3.0":
+"@types/jasmine@npm:~4.3.6":
   version: 4.3.6
   resolution: "@types/jasmine@npm:4.3.6"
   checksum: 1dd9cc3633db98a0fc7149184cc3916c5158cfdfd65d437b81502d55e5e147305aac3bbce65ed144253b2406e47821629a18d1111b102fdc4f0c6867735a2c91
@@ -6871,10 +6871,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:^4.1.0, jasmine-core@npm:~4.6.0":
+"jasmine-core@npm:^4.1.0":
   version: 4.6.0
   resolution: "jasmine-core@npm:4.6.0"
   checksum: c5c5ce16c512cf0bc8b6b4f2d4f0ac7b23cae90624e0cd9d22da3baab3266e9a4da5a9363fb7937b16e0a4cf550bb79183cd74483ce55cfff4b6678434d599b7
+  languageName: node
+  linkType: hard
+
+"jasmine-core@npm:~5.1.1":
+  version: 5.1.1
+  resolution: "jasmine-core@npm:5.1.1"
+  checksum: 84f1b3a0af7769c9bd514cdde1e366e7798a0b1110efa5a09157c653c53cdad77e1c84bffd5cafe07649c9dba7141cd602c444ac37813f111f8f5b5e3f8f6c99
   languageName: node
   linkType: hard
 
@@ -7582,7 +7589,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-coverage@npm:~2.2.0":
+"karma-coverage@npm:~2.2.1":
   version: 2.2.1
   resolution: "karma-coverage@npm:2.2.1"
   dependencies:
@@ -7627,7 +7634,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma@npm:~6.4.0":
+"karma@npm:~6.4.2":
   version: 6.4.2
   resolution: "karma@npm:6.4.2"
   dependencies:
@@ -8357,7 +8364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ng-packagr@npm:^16.2.0":
+"ng-packagr@npm:^16.2.3":
   version: 16.2.3
   resolution: "ng-packagr@npm:16.2.3"
   dependencies:
@@ -8408,33 +8415,33 @@ __metadata:
   resolution: "ng16-jest-preset@workspace:."
   dependencies:
     "@angular-devkit/build-angular": ^16.2.4
-    "@angular/animations": ^16.2.0
+    "@angular/animations": ^16.2.7
     "@angular/cli": ^16.2.4
-    "@angular/common": ^16.2.0
-    "@angular/compiler": ^16.2.0
-    "@angular/compiler-cli": ^16.2.0
-    "@angular/core": ^16.2.0
-    "@angular/forms": ^16.2.0
-    "@angular/platform-browser": ^16.2.0
-    "@angular/platform-browser-dynamic": ^16.2.0
-    "@angular/router": ^16.2.0
-    "@types/jasmine": ~4.3.0
+    "@angular/common": ^16.2.7
+    "@angular/compiler": ^16.2.7
+    "@angular/compiler-cli": ^16.2.7
+    "@angular/core": ^16.2.7
+    "@angular/forms": ^16.2.7
+    "@angular/platform-browser": ^16.2.7
+    "@angular/platform-browser-dynamic": ^16.2.7
+    "@angular/router": ^16.2.7
+    "@types/jasmine": ~4.3.6
     "@types/jest": ^29.5.5
-    jasmine-core: ~4.6.0
+    jasmine-core: ~5.1.1
     jest: ^29.7.0
     jest-environment-jsdom: ^29.7.0
     jest-preset-angular: ^13.1.2
-    karma: ~6.4.0
+    karma: ~6.4.2
     karma-chrome-launcher: ~3.2.0
-    karma-coverage: ~2.2.0
+    karma-coverage: ~2.2.1
     karma-jasmine: ~5.1.0
     karma-jasmine-html-reporter: ~2.1.0
-    ng-packagr: ^16.2.0
-    rxjs: ~7.8.0
+    ng-packagr: ^16.2.3
+    rxjs: ~7.8.1
     ts-node: ^10.9.1
-    tslib: ^2.3.0
-    typescript: ~5.1.3
-    zone.js: ~0.13.0
+    tslib: ^2.6.2
+    typescript: ~5.1.6
+    zone.js: ~0.14.0
   languageName: unknown
   linkType: soft
 
@@ -9703,7 +9710,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.8.1, rxjs@npm:^7.5.5, rxjs@npm:^7.5.6, rxjs@npm:~7.8.0":
+"rxjs@npm:7.8.1, rxjs@npm:^7.5.5, rxjs@npm:^7.5.6, rxjs@npm:~7.8.1":
   version: 7.8.1
   resolution: "rxjs@npm:7.8.1"
   dependencies:
@@ -10690,7 +10697,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.0, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0":
+"tslib@npm:^2.0.0, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.6.2":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
@@ -10739,7 +10746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.1.3":
+"typescript@npm:~5.1.6":
   version: 5.1.6
   resolution: "typescript@npm:5.1.6"
   bin:
@@ -10749,7 +10756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~5.1.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@~5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
   resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
@@ -11537,11 +11544,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zone.js@npm:~0.13.0":
-  version: 0.13.3
-  resolution: "zone.js@npm:0.13.3"
+"zone.js@npm:~0.14.0":
+  version: 0.14.0
+  resolution: "zone.js@npm:0.14.0"
   dependencies:
     tslib: ^2.3.0
-  checksum: 73888a51b0299b4b56c56b97c71fe4a3548a9bdb9e4b4c49dd0e110a4487fbe7f141c08d3e3acff875a6fbb6d581750209ac767ae5d82dca0636ede41aebd436
+  checksum: 8a1c055ff1f3da6e80f27bdc1b3a69cdb0098194ddfd9d9cee19414d5e00f09863f53a5746835ab711ef94bb828f44e4fe9f6c1491a0981dbcd13d3b88f5d997
   languageName: node
   linkType: hard
