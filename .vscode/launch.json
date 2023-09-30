@@ -9,12 +9,42 @@
       "preLaunchTask": "npm: start",
       "url": "http://localhost:4200/"
     },
+    // {
+    //   "name": "ng test",
+    //   "type": "chrome",
+    //   "request": "launch",
+    //   "preLaunchTask": "npm: test",
+    //   "url": "http://localhost:9876/debug.html"
+    // },
     {
-      "name": "ng test",
+      "name": "karma: Attach to Chrome",
       "type": "chrome",
+      "request": "attach",
+      // "port": 9222,
+      "address": "localhost",
+      "restart": true,
+      "timeout": 600000
+    },
+    {
+      "name": "Jest current file",
+      "type": "node",
       "request": "launch",
-      "preLaunchTask": "npm: test",
-      "url": "http://localhost:9876/debug.html"
+      "runtimeArgs": [
+        "--experimental-vm-modules",
+        "--inspect-brk",
+        "${workspaceRoot}/node_modules/.store/jest-virtual-d960a76af4/node_modules/jest/bin/jest.js",
+        "/${fileBasenameNoExtension}",
+        "--watch",
+        "--runInBand",
+        "--testTimeout=10000000" // Prevent timeouts when running in debugger.
+        //,"--no-cache"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "TEST_ENV": "debug",
+        // "TS_JEST_LOG": "ts-jest.log"
+      }
     }
   ]
 }

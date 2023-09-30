@@ -8,7 +8,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test:karma": "ng test --watch false",
+    "test:karma:headless": "ng test --browsers ChromeHeadless --watch false",
+    "test": "ng test",
     "test:jest": "yarn jest-esm",
     "jest-esm": "yarn node --experimental-vm-modules --experimental-worker --no-warnings $(yarn bin jest) --maxWorkers=6"
   },
@@ -40,7 +41,9 @@
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0",
+    "karma-junit-reporter": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
     "ng-packagr": "^16.2.3",
     "ts-node": "^10.9.1",
     "typescript": "~5.1.6"

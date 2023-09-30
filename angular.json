@@ -32,6 +32,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "tsConfig": "projects/mylib/tsconfig.spec.json",
+            "karmaConfig": "projects/mylib/karma.conf.cjs",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -124,6 +125,7 @@
               "zone.js/testing"
             ],
             "tsConfig": "projects/myapp/tsconfig.spec.json",
+            "karmaConfig": "projects/myapp/karma.conf.cjs",
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/myapp/src/favicon.ico",
