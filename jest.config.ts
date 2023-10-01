@@ -3,20 +3,20 @@ import type { Config } from 'jest';
 const jestConfig: Config = {
   preset: 'jest-preset-angular/presets/defaults-esm',
   setupFilesAfterEnv: ['<rootDir>/test/setup-jest.ts'],
+  roots: [
+    '<rootDir>/projects/'
+  ],
   testMatch: [
     '**/+(*.)+(jest-spec).ts'
   ],
 
   // This block needed just b/c the tsconfig isn't named "tsconfig.spec.json"
-  transform: {
-    '^.+\\.(ts|js|html|svg)$': [
-      'jest-preset-angular',
-      {
-        tsconfig: '<rootDir>/tsconfig.jest-spec.json',
-        stringifyContentPathRegex: '\\.(html|svg)$',
-        useESM: true,
-      },
-    ],
+  globals: {
+    'ts-jest': {
+      tsconfig: '<rootDir>/tsconfig.jest-spec.json',
+      stringifyContentPathRegex: '\\.(html|svg)$',
+      useESM: true
+    },
   },
 
   moduleNameMapper: {
