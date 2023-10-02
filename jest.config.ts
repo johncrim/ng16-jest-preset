@@ -11,12 +11,15 @@ const jestConfig: Config = {
   ],
 
   // This block needed just b/c the tsconfig isn't named "tsconfig.spec.json"
-  globals: {
-    'ts-jest': {
-      tsconfig: '<rootDir>/tsconfig.jest-spec.json',
-      stringifyContentPathRegex: '\\.(html|svg)$',
-      useESM: true
-    },
+  transform: {
+    '^.+\\.(ts|js|html|svg)$': [
+      'jest-preset-angular',
+      {
+        tsconfig: '<rootDir>/tsconfig.jest-spec.json',
+        stringifyContentPathRegex: '\\.(html|svg)$',
+        useESM: true,
+      },
+    ],
   },
 
   moduleNameMapper: {

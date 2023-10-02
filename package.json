@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test:karma:headless": "ng test --browsers ChromeHeadless --watch false",
     "test": "ng test",
-    "test:jest": "yarn jest-esm --no-cache",
+    "test:jest": "yarn jest-esm",
     "jest-esm": "yarn node --experimental-vm-modules --experimental-worker --no-warnings $(yarn bin jest) --maxWorkers=6"
   },
   "private": true,
@@ -25,7 +25,7 @@
     "@angular/router": "^16.2.7",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
-    "zone.js": "^0.13.0"
+    "zone.js": "~0.14.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.4",
@@ -36,7 +36,7 @@
     "jasmine-core": "~5.1.1",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "jest-preset-angular": "12.2.6",
+    "jest-preset-angular": "^13.1.2",
     "karma": "~6.4.2",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.1",

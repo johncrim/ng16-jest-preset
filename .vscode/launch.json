@@ -32,7 +32,7 @@
       "runtimeArgs": [
         "--experimental-vm-modules",
         "--inspect-brk",
-        "${workspaceRoot}/node_modules/jest-cli/bin/jest.js",
+        "${workspaceRoot}/node_modules/.store/jest-virtual-d960a76af4/node_modules/jest/bin/jest.js",
         "/${fileBasenameNoExtension}",
         "--watch",
         "--runInBand",
